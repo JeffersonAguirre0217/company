@@ -1,1 +1,51 @@
-/* No CSS *//*# sourceMappingURL=footer.component.css.map */
+#branch-footer {
+  bottom: 0;
+  background-color: #1F2A20;
+  color: white;
+  padding-top: 50px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#branch-footer h1 {
+  padding-bottom: 20px;
+  left: 0;
+  padding-left: 100px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+#branch-footer .email-persefone {
+  font-weight: bold;
+}
+
+#branch-footer .email-persefone i {
+  padding-right: 5px;
+}
+
+#branch-footer .social-media i {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+}
+
+#branch-footer .btn-contact {
+  text-decoration: none;
+  border: 1px solid;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#branch-footer .logo-footer {
+  height: 80px;
+  width: 80px;
+}
+/*# sourceMappingURL=footer.component.css.map */

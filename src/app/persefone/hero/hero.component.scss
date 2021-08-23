@@ -1,2 +1,24 @@
+#hero{
+    .hero-title{
+        padding-top: 100px;
 
-@import "../../../../node_modules/bootstrap/scss/bootstrap";
+        h1{
+            font-weight: bold;
+            font-size: 58px;
+            color: #2C6D8F;
+        }
+
+        h2{
+            font-size: 42px;
+            font-weight: 600;
+        }
+    }
+    .hero-img{
+        background-image: url('../../../assets/img/hero_web.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 550px;
+        width: 600px;
+    }
+}
