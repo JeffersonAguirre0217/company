@@ -1,10 +1,10 @@
 
 import {Routes } from '@angular/router';
-import { HeroComponent } from './hero/hero.component';
+import { IndexPersefoneComponent } from './index-persefone/index-persefone.component';
 
 
 export const PersefoneRouting: Routes = [
   {
-    path: "", component: HeroComponent
+    path: "", component: IndexPersefoneComponent
   },
 ];

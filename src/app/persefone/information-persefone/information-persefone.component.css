@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=information-persefone.component.css.map */
+#information {
+  background-color: #374DBF;
+}
+
+#information .computer-img {
+  height: 400PX;
+  width: 500PX;
+  background-position: center;
+  background-size: contain;
+}
+/*# sourceMappingURL=information-persefone.component.css.map */

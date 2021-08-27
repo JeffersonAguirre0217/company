@@ -1,2 +1,53 @@
+#hero{
+    .hero-title{
+        padding-top: 100px;
 
-@import "../../../../node_modules/bootstrap/scss/bootstrap";
+        h1{
+            font-weight: bold;
+            font-size: 58px;
+            color: #2C6D8F;
+        }
+
+        h2{
+            color: #2C6D8F;
+            font-size: 42px;
+            font-weight: 600;
+        }
+
+        p{
+            color: #e784c0; 
+            font-weight: 600;
+            font-size: 20px;
+        }
+        
+    }
+    .hero-img{
+        background-image: url('../../../assets/img/hero.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 550px;
+        width: 600px;
+    }
+
+    .btn-defaul-persefone{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 22px;
+        font-weight: 650;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 300px;
+        background: rgba(211, 83, 243, 0.92);
+        mix-blend-mode: normal;
+        border: 1px solid #d9dbe7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .btn-defaul-persefone:hover{
+        background-color: #ab56c0;
+    }
+}
