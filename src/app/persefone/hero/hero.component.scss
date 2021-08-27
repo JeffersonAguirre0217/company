@@ -9,12 +9,20 @@
         }
 
         h2{
+            color: #2C6D8F;
             font-size: 42px;
             font-weight: 600;
         }
+
+        p{
+            color: #e784c0; 
+            font-weight: 600;
+            font-size: 20px;
+        }
+        
     }
     .hero-img{
-        background-image: url('../../../assets/img/hero_web.png');
+        background-image: url('../../../assets/img/hero.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -27,8 +35,9 @@
         color: #ffffff;
         font-weight: 500;
         font-size: 22px;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        font-weight: 650;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width: 300px;
         background: rgba(211, 83, 243, 0.92);
         mix-blend-mode: normal;
@@ -39,6 +48,6 @@
     }
 
     .btn-defaul-persefone:hover{
-        background-color: purple;
+        background-color: #ab56c0;
     }
 }
