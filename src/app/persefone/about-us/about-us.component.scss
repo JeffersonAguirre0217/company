@@ -1,52 +1,55 @@
-#aboutUs{
-    background-color: #2C6D8F;
-    height: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    #aboutUs{
+        background-color: #2C6D8F;
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 0px;
 
-    h1{
-        color: #ffffff;
-        font-size: 52px;
-        font-weight: bold;
-    }
+        h1{
+            padding-top: 5px;
+            color: #ffffff;
+            font-size: 46px;
+            font-weight: bold;
+        }
 
-    .row{
-        padding-top: 40px;
-    }
+        .row{
+            padding-top: 20px;
+        }
 
-    .about-us-img{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 700x;
-        width: 570px;
-        padding-right: 30px;
-    }
+        .about-us-img{
+            background-image: url('../../../assets/img/quienes_somos.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 370px;
+            width: 450px;
+        }
 
-    p{
-        color: white;
-        font-size: 20px;
-        padding-left: 30px;
-        font-weight: 400;
-    }
+        p{
+            color: white;
+            font-size: 20px;
+            line-height: 24px;
+            padding-left: 0px;
+            font-weight: 400;
+            padding-right: 5%   ;
+            bottom: 0;
+        }
 
-    .btn-defaul-persefone{
-        text-decoration: none;
-        color: #ffffff;
-        font-weight: 500;
-        font-size: 22px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: 300px;
-        background: rgba(211, 83, 243, 0.92);
-        mix-blend-mode: normal;
-        border: 1px solid #6472BE;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        text-align: center;
+        .btn-defaul-persefone{
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 300px;
+            background: rgba(211, 83, 243, 0.92);
+            mix-blend-mode: normal;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            text-align: center;
+        }
+    
+        .btn-defaul-persefone:hover{
+            background-color: #ab56c0;
+        }
     }
-
-    .btn-defaul-persefone:hover{
-        background-color: purple;
-    }
-}
