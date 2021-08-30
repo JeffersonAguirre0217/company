@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=products.component.css.map */
+#products {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+#products h1 {
+  color: #2C6D8F;
+  font-weight: bold;
+  text-align: center;
+}
+
+#products p {
+  text-align: center;
+}
+
+#products .card {
+  border-radius: 10px;
+  background-color: #30ABC6;
+  margin-top:25px;
+}
+
+#products .card .card-title {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#products .card .card-title h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+#products .card .card-body {
+  margin: 0;
+  padding-top: 0;
+}
+
+#products .card .card-buttom {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#products .card .card-buttom .btn-get-product {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 18%;
+  padding-right: 18%;
+  width: 100%;
+}
+
+#products .soon {
+  background-color: #39494D !important;
+}
+/*# sourceMappingURL=products.component.css.map */

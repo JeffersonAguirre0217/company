@@ -14,6 +14,15 @@
   font-weight: bold;
 }
 
+#branch-menu .btn-menu {
+  border: 0 solid;
+  font-weight: bold;
+}
+
+#branch-menu .btn-menu span {
+  color: #2C6D8F !important;
+}
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

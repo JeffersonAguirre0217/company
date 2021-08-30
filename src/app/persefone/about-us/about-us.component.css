@@ -19,9 +19,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 700x;
-  width: 570px;
+  height: auto;
+  width: 100%;
   padding-right: 30px;
+}
+@media(min-width: 715px){
+  #aboutUs .about-us-img-mobile {
+    display:none;
+  }
+}
+@media(max-width: 715px){
+  #aboutUs .about-us-img {
+    display:none;
+  }
+  #aboutUs .about-us-img-mobile {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    padding-right: 30px;
+  }
 }
 
 #aboutUs p {
