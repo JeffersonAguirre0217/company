@@ -48,3 +48,32 @@
         background-color: #ab56c0;
     }
 }
+
+@media(max-width:500px){
+    #hero{
+        .hero-title{
+            padding-top: 50px;
+    
+            h1{
+                font-size: 38px;
+                line-height: 34px;
+            }
+    
+            p{
+                font-size: 16px;
+                line-height: 22px;
+            }
+            
+        }
+        .hero-img{
+            height: 310px;
+            width: 100%;
+        }
+    
+        .btn-defaul-persefone{
+            font-size: 18px;
+            width: 100%;
+            
+        }
+    }
+}
