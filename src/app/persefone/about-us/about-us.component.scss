@@ -2,7 +2,7 @@
         background-color: #2C6D8F;
         height: auto;
         padding-top: 70px;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
 
         h1{
             padding-top: 5px;
@@ -19,9 +19,11 @@
             background-image: url('../../../assets/img/quienes_somos.png');
             background-repeat: no-repeat;
             background-size: contain;
-            height: 370px;
+            height: 320px;
             width: 450px;
         }
+
+        
 
         p{
             color: white;
@@ -53,3 +55,53 @@
             background-color: #ab56c0;
         }
     }
+
+@media(max-width:500px){
+    #aboutUs{
+        padding-top: 50px;
+        padding-bottom: 0;
+        
+        h1{
+            font-size: 36px;  
+        }
+
+        .row{
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .about-us-img-mobile{
+            background-image: url('../../../assets/img/quienes_somos.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 240px;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .about-us-img{
+            display: none;
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 22px;
+
+            br{
+                display: none;
+            }
+        }
+
+        .btn-defaul-persefone{
+            font-size: 18px;
+            width: 100%;
+        }
+    }
+}
+
+//img hide
+@media(min-width:500px){
+    .about-us-img-mobile{
+        display: none;
+    }
+}

@@ -5,24 +5,56 @@
     h1{
         color: #2C6D8F;
         font-weight: bold;
+        font-size: 46px;
     }
+
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
     .btn-defaul-persefone{
         text-decoration: none;
         color: #ffffff;
         font-weight: 500;
-        font-size: 22px;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width: 300px;
         background: rgba(211, 83, 243, 0.92);
         mix-blend-mode: normal;
-        border: 1px solid #d9dbe7;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         text-align: center;
+        margin-top: 8px;
+            margin-bottom: 8px;
     }
 
     .btn-defaul-persefone:hover{
-        background-color: purple;
+        background-color: #ab56c0;
+    }
+}
+
+@media(max-width:500px){
+    #contact{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    
+        h1{
+            text-align: center;
+            font-size: 36px;
+        }
+        p{
+            text-align: center;
+            font-family: 16px;
+        }
+        .btn-defaul-persefone{
+            font-size: 18px;
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
     }
 }
