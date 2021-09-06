@@ -18,10 +18,28 @@
     .btn-menu{
       border: 0 solid;
       font-weight: bold;
-      span{
-        color: #2C6D8F !important;
+      i{
+        color: #2C6D8F;
+        font-weight: bold;
+        font-size: 32px;
       }
     }
+
+    .btn-slider {
+      background: rgba(211, 83, 243, 0.92);
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border: 1 solid;
+      border-radius: 10px;
+      text-align: center;
+      color: #fff;
+      font-size: 18;
+      font-weight: 450;
+    }
+
+    .btn-slider:hover{
+      background-color: #ab56c0;
+  }
     
 }
 

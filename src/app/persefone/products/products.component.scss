@@ -29,22 +29,30 @@
             h2{
                 color: #fff;
                 font-weight: bold;
-                font-size: 38px;
+                font-size: 35px;
                 line-height: 32px;
             }
 
             small{
                 color: #c978c5;
-                font-size: medium;
+                font-size:small;
+                margin: 0;
+                padding: 0;
             }
 
             h5{
                 color: #c978c5;
                 font-weight: bold;
-                font-size: 28px;
+                font-size: 16px;
+
+                i{
+                    font-size: 22px;
+                }
+
                 b{
                     color: #2C6D8F;
                     font-weight: 640;
+                    font-size: 22px;
                 }
             }
         }
